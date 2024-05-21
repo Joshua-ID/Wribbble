@@ -1,0 +1,61 @@
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    padding-right: 0.5em ;
+    font-family: 'kaufmann Bd BT';
+    font-weight: 550;
+    color: rgb(6, 6, 39);
+    font-size: 2.1em;
+
+}
+
+.container ul li{
+    display: inline;
+    font-family: arial;
+    padding: 0 0.9em;
+    font-size: 13.2px;
+    font-weight: 550;
+    color: rgb(6, 6, 39);
+}
+
+.container ul li:nth-last-child(1){
+    color: rgb(255, 65, 192);
+}
+
+.navbtn button{
+    background: rgb(6, 6, 39);
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13.2px;
+    margin: 4px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.navbtn button:nth-child(1){
+    background: #fff;
+    color: rgb(6, 6, 39);
+}
+.navbtn button:hover:nth-child(1){
+
+    color: rgb(6, 6, 39);
+    background: #fff;
+    box-shadow: inset 0 0 7px rgb(17, 13, 53);
+}
+

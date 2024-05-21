@@ -1,0 +1,23 @@
+.error{
+    /* background: #fff; */
+    background: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em 2em 1em 2em;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 400;
+    transition: background 9s;
+}
+
+.error img{
+    width: 7px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 6pm;
+}

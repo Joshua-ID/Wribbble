@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 3em 0 3em 0;
+}
+
+#tag,
+#col,
+#sel {
+  width: 35%;
+  padding: 13px 13px;
+  background: rgba(231, 227, 227, 0.363);
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  margin: 0 2em;
+  font-weight: 550;
+  color: gray;
+}
